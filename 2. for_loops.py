@@ -1,6 +1,5 @@
-# password validation example
-number = 2
+user_input = ""
 
-while number < 10 :
-    print(number)
-    number += 1
+while user_input != 'end' :
+    user_input = input(">>")
+    print(user_input)
