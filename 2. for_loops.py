@@ -1,8 +1,6 @@
 # password validation example
+number = 2
 
-names = ['jan' , 'ahmad','tawakal']
-classes = ['c' , 'd','e', 'haji khan']
-
-for c in names :
-    for name in classes:
-        print(f" {name} {c}")
+while number < 10 :
+    print(number)
+    number += 1
