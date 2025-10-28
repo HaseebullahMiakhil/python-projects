@@ -1,10 +1,8 @@
 # password validation example
 
-for mynumber in range(10):
-    password = input('enter your number: ')
-    if password == 'miakhil' :
-        break
-    else :
-        print('enter right password')
+names = ['jan' , 'ahmad','tawakal']
+classes = ['c' , 'd','e', 'haji khan']
 
-print('for loop ended')
+for c in names :
+    for name in classes:
+        print(f" {name} {c}")
