@@ -1,9 +1,5 @@
-user_input = ""
 
-while user_input != 'end' :
-    user_input = input(">>")
-    if user_input == 'n':
-        continue
-    elif user_input == 'j':
-        break
-    print(user_input)
+number = 10
+while number !=1:
+    print(number)
+    number -=1
